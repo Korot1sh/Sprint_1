@@ -6,7 +6,6 @@ world_champions = {
     2018: 'Франция',
     2022: 'Аргентина'
 }
-#print(world_champions)
 for year, winner in world_champions.items():
     print(year, '-', winner)
 country = 'Италия'
